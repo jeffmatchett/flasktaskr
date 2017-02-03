@@ -130,3 +130,5 @@ def delete_entry(task_id):
     g.db.close()
     flash('The task was deleted.')
     return redirect(url_for('tasks'))
+
+# test
