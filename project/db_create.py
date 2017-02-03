@@ -1,5 +1,6 @@
+# database creation
 from views import db
-from models import task
+from models import Task
 from datetime import date
 
 # create DB and DB table
